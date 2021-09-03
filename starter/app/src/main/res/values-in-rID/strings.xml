@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Asteroid Radar</string>
+    <string name="next_week_asteroids">Lihat Asteroid Minggu Ini</string>
+    <string name="saved_asteroids">Lihat Semua Asteroid</string>
+    <string name="close_approach_data_title">Tanggal Mendekat</string>
+    <string name="absolute_magnitude_title">Magnitudo Abslolut</string>
+    <string name="estimated_diameter_title">Estimasi Diameter</string>
+    <string name="relative_velocity_title">Kecepatan Relatif</string>
+    <string name="distance_from_earth_title">Jarak Dari Bumi</string>
+    <string name="astronomical_unit_format">%f au</string>
+    <string name="km_unit_format">%f km</string>
+    <string name="km_s_unit_format">%f km/s</string>
+    <string name="image_of_the_day">Gambar Hari Ini</string>
+    <string name="astronomica_unit_explanation">Astronomical Unit (au) adalah ukuran panjang, kira-kira jarak dari Bumi ke Matahari dan sama dengan sekitar 150 juta kilometer</string>
+    <string name="astronomical_unit_explanation_button">Definisi Astronomical unit</string>
+    <string name="potentially_hazardous_asteroid_image">Gambar Asteroid yang Berpotensi Berbahaya</string>
+    <string name="not_hazardous_asteroid_image">Gambar Asteroid yang tidak Berbahaya</string>
+    <string name="this_is_nasa_s_picture_of_day_showing_nothing_yet">Ini Adalah gambar dari Nasa, belum ada gambar yang ditampilkan</string>
+    <string name="nasa_picture_of_day_content_description_format">Gambar Nasa Hari Ini: %s</string>
+    <string name="today_asteroids">Lihat Asteroid Hari Ini</string>
+</resources>
