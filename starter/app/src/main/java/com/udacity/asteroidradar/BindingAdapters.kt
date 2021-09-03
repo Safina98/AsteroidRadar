@@ -1,8 +1,11 @@
 package com.udacity.asteroidradar
 
+import android.view.View
 import android.widget.ImageView
+import android.widget.ProgressBar
 import android.widget.TextView
 import androidx.databinding.BindingAdapter
+import androidx.lifecycle.LiveData
 import androidx.recyclerview.widget.RecyclerView
 import com.squareup.picasso.Picasso
 import com.udacity.asteroidradar.main.MainAdapter
@@ -19,6 +22,15 @@ fun bindContentDescImg(imageView: ImageView,title:String?){
         imageView.contentDescription = String.format(imageView.context.getString(R.string.nasa_picture_of_day_content_description_format), title)
     }else{
         imageView.contentDescription = imageView.context.resources.getString(R.string.this_is_nasa_s_picture_of_day_showing_nothing_yet)
+    }
+
+}
+
+@BindingAdapter("loadingImg")
+fun bindLoadingImg(imageView: ImageView,data:List<Asteroid>?){
+    if (data==null){
+        imageView.visibility = View.VISIBLE
+        imageView.contentDescription = imageView.context.resources.getString(R.string.loading_image)
     }
 
 }

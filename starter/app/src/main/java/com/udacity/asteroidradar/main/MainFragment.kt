@@ -4,6 +4,7 @@ import android.content.res.Configuration
 import android.os.Bundle
 import android.view.*
 import android.widget.FrameLayout
+import android.widget.Toast
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
@@ -41,6 +42,13 @@ class MainFragment : Fragment() {
                 findNavController().navigate(MainFragmentDirections.actionShowDetail(it))
                 viewModel.navigatedToDetail()
             }
+        })
+        viewModel.asteroids.observe(viewLifecycleOwner, Observer {
+           if (it.size<1){
+               binding.statusLoadingWheel.visibility = View.VISIBLE
+           }else{
+               binding.statusLoadingWheel.visibility = View.GONE
+           }
         })
 
         setHasOptionsMenu(true)

@@ -19,4 +19,6 @@
     <string name="this_is_nasa_s_picture_of_day_showing_nothing_yet">Ini Adalah gambar dari Nasa, belum ada gambar yang ditampilkan</string>
     <string name="nasa_picture_of_day_content_description_format">Gambar Nasa Hari Ini: %s</string>
     <string name="today_asteroids">Lihat Asteroid Hari Ini</string>
+    <string name="help_button">Tombol Bantuan</string>
+    <string name="loading_image">Gambar Memuat</string>
 </resources>

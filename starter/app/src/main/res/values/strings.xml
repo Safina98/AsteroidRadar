@@ -20,4 +20,5 @@
     <string name="nasa_picture_of_day_content_description_format">NASA\'s picture of day: %s</string>
     <string name="today_asteroids">View Today Asteroids</string>
     <string name="help_button">Help Button</string>
+    <string name="loading_image">Loading Image</string>
 </resources>

@@ -58,7 +58,6 @@ class DataRepository (private val database: AsteroidDatabase){
     }
     suspend fun deleteYesterday(){
         withContext(Dispatchers.IO){
-            //your formatted date here
             database.pictODDayDao.deleteAll()
             database.asteroidDao.deleteNew(currentDate)
         }

@@ -30,6 +30,7 @@ class MainViewModel(application: Application) : AndroidViewModel(application) {
     private val filter_ =  MutableLiveData<DateFilter>(DateFilter.SHOW_ALL)
 
 
+
     private val _pict_of_d_day = MutableLiveData<PictureOfDay>()
     //val pict_of_d_day:LiveData<PictureOfDay>get() = _pict_of_d_day
 
